@@ -19,7 +19,7 @@ terraform {
 provider "aws" {
   region  = var.aws_region
 
-  #added for local testing without nees for aws configure
+  #added for local testing without need for aws configure
   skip_credentials_validation = true
   skip_requesting_account_id  = true
   skip_metadata_api_check     = true
