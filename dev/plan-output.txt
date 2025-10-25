@@ -1,0 +1,669 @@
+2025-10-24T22:54:54.833-0500 [INFO]  Terraform version: 1.5.7
+2025-10-24T22:54:54.834-0500 [INFO]  Go runtime version: go1.22.2
+2025-10-24T22:54:54.834-0500 [INFO]  CLI args: []string{"terraform", "plan"}
+2025-10-24T22:54:54.836-0500 [INFO]  CLI command args: []string{"plan"}
+2025-10-24T22:54:55.389-0500 [INFO]  backend/local: starting Plan operation
+2025-10-24T22:54:55.397-0500 [INFO]  provider: configuring client automatic mTLS
+2025-10-24T22:54:55.644-0500 [INFO]  provider.terraform-provider-aws_v6.18.0_x5: configuring server automatic mTLS: timestamp=2025-10-24T22:54:55.644-0500
+2025-10-24T22:54:56.243-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.243-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.243-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.243-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.243-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.243-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.243-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.243-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.243-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.243-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.251-0500 [INFO]  provider: configuring client automatic mTLS
+2025-10-24T22:54:56.396-0500 [INFO]  provider.terraform-provider-aws_v6.18.0_x5: configuring server automatic mTLS: timestamp=2025-10-24T22:54:56.396-0500
+2025-10-24T22:54:56.951-0500 [INFO]  backend/local: plan calling Plan
+2025-10-24T22:54:56.954-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.954-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.954-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.954-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.954-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.954-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.954-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.954-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.954-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.954-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:56.955-0500 [INFO]  provider: configuring client automatic mTLS
+2025-10-24T22:54:57.101-0500 [INFO]  provider.terraform-provider-aws_v6.18.0_x5: configuring server automatic mTLS: timestamp=2025-10-24T22:54:57.101-0500
+2025-10-24T22:54:57.649-0500 [INFO]  provider.terraform-provider-aws_v6.18.0_x5: Retrieved credentials: tf_aws.credentials_source=StaticCredentials tf_provider_addr=registry.terraform.io/hashicorp/aws @module=aws.aws-base tf_req_id=676e85af-0354-8df1-c5d0-056e446b889a tf_rpc=ConfigureProvider @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.67/logging/tf_logger.go:39 tf_mux_provider=*schema.GRPCProviderServer timestamp=2025-10-24T22:54:57.649-0500
+2025-10-24T22:54:57.651-0500 [INFO]  ReferenceTransformer: reference not found: "var.vpc_cidr"
+2025-10-24T22:54:57.651-0500 [INFO]  ReferenceTransformer: reference not found: "var.azs"
+2025-10-24T22:54:57.651-0500 [INFO]  ReferenceTransformer: reference not found: "var.azs"
+2025-10-24T22:54:57.654-0500 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for module.vpc.aws_vpc.staging_vpc, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .instance_tenancy: planned value cty.StringVal("default") for a non-computed attribute
+      - .enable_dns_support: planned value cty.True for a non-computed attribute
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "var.environment"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "var.vpc_cidr"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "var.azs"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "var.vpc_cidr"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "var.azs"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "var.azs"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "var.azs"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "var.vpc_cidr"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "var.azs"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "var.azs"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "var.vpc_cidr"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "var.azs"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "var.vpc_cidr"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "var.azs"
+2025-10-24T22:54:57.654-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.656-0500 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for module.vpc.aws_subnet.private[1], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .enable_resource_name_dns_a_record_on_launch: planned value cty.False for a non-computed attribute
+      - .assign_ipv6_address_on_creation: planned value cty.False for a non-computed attribute
+      - .map_public_ip_on_launch: planned value cty.False for a non-computed attribute
+      - .enable_dns64: planned value cty.False for a non-computed attribute
+      - .enable_resource_name_dns_aaaa_record_on_launch: planned value cty.False for a non-computed attribute
+      - .ipv6_native: planned value cty.False for a non-computed attribute
+2025-10-24T22:54:57.656-0500 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for module.vpc.aws_subnet.private[0], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .map_public_ip_on_launch: planned value cty.False for a non-computed attribute
+      - .enable_dns64: planned value cty.False for a non-computed attribute
+      - .enable_resource_name_dns_aaaa_record_on_launch: planned value cty.False for a non-computed attribute
+      - .ipv6_native: planned value cty.False for a non-computed attribute
+      - .assign_ipv6_address_on_creation: planned value cty.False for a non-computed attribute
+      - .enable_resource_name_dns_a_record_on_launch: planned value cty.False for a non-computed attribute
+2025-10-24T22:54:57.656-0500 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for module.vpc.aws_subnet.public[1], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .ipv6_native: planned value cty.False for a non-computed attribute
+      - .enable_resource_name_dns_a_record_on_launch: planned value cty.False for a non-computed attribute
+      - .assign_ipv6_address_on_creation: planned value cty.False for a non-computed attribute
+      - .enable_dns64: planned value cty.False for a non-computed attribute
+      - .enable_resource_name_dns_aaaa_record_on_launch: planned value cty.False for a non-computed attribute
+2025-10-24T22:54:57.657-0500 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for module.vpc.aws_subnet.public[0], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .enable_dns64: planned value cty.False for a non-computed attribute
+      - .enable_resource_name_dns_aaaa_record_on_launch: planned value cty.False for a non-computed attribute
+      - .ipv6_native: planned value cty.False for a non-computed attribute
+      - .assign_ipv6_address_on_creation: planned value cty.False for a non-computed attribute
+      - .enable_resource_name_dns_a_record_on_launch: planned value cty.False for a non-computed attribute
+2025-10-24T22:54:57.657-0500 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for module.vpc.aws_security_group.vpc_endpoints, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .egress: planned value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal(""), "from_port":cty.NumberIntVal(0), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("-1"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(0)})}) does not match config value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.NullVal(cty.String), "from_port":cty.NumberIntVal(0), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("-1"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(0)})})
+      - .ingress: planned value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("172.16.0.0/16")}), "description":cty.StringVal(""), "from_port":cty.NumberIntVal(443), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("tcp"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(443)})}) does not match config value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("172.16.0.0/16")}), "description":cty.NullVal(cty.String), "from_port":cty.NumberIntVal(443), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("tcp"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(443)})})
+      - .description: planned value cty.StringVal("Managed by Terraform") for a non-computed attribute
+      - .revoke_rules_on_delete: planned value cty.False for a non-computed attribute
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "aws_internet_gateway.igw"
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "var.azs"
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "aws_eip.nat_eip"
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "aws_subnet.public"
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "aws_internet_gateway.igw"
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "var.azs"
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "aws_eip.nat_eip"
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "aws_subnet.public"
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "aws_subnet.private"
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "var.region"
+2025-10-24T22:54:57.657-0500 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for module.vpc.aws_route_table.public, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .route: planned value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"carrier_gateway_id":cty.StringVal(""), "cidr_block":cty.StringVal("0.0.0.0/0"), "core_network_arn":cty.StringVal(""), "destination_prefix_list_id":cty.StringVal(""), "egress_only_gateway_id":cty.StringVal(""), "gateway_id":cty.UnknownVal(cty.String), "ipv6_cidr_block":cty.StringVal(""), "local_gateway_id":cty.StringVal(""), "nat_gateway_id":cty.StringVal(""), "network_interface_id":cty.StringVal(""), "transit_gateway_id":cty.StringVal(""), "vpc_endpoint_id":cty.StringVal(""), "vpc_peering_connection_id":cty.StringVal("")})}) does not match config value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"carrier_gateway_id":cty.NullVal(cty.String), "cidr_block":cty.StringVal("0.0.0.0/0"), "core_network_arn":cty.NullVal(cty.String), "destination_prefix_list_id":cty.NullVal(cty.String), "egress_only_gateway_id":cty.NullVal(cty.String), "gateway_id":cty.UnknownVal(cty.String), "ipv6_cidr_block":cty.NullVal(cty.String), "local_gateway_id":cty.NullVal(cty.String), "nat_gateway_id":cty.NullVal(cty.String), "network_interface_id":cty.NullVal(cty.String), "transit_gateway_id":cty.NullVal(cty.String), "vpc_endpoint_id":cty.NullVal(cty.String), "vpc_peering_connection_id":cty.NullVal(cty.String)})})
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "var.azs"
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "aws_subnet.public"
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "var.azs"
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "aws_subnet.public"
+2025-10-24T22:54:57.657-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.658-0500 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for module.vpc.aws_nat_gateway.nat_gw[1], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .connectivity_type: planned value cty.StringVal("public") for a non-computed attribute
+2025-10-24T22:54:57.659-0500 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for module.vpc.aws_nat_gateway.nat_gw[0], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .connectivity_type: planned value cty.StringVal("public") for a non-computed attribute
+2025-10-24T22:54:57.659-0500 [INFO]  ReferenceTransformer: reference not found: "var.azs"
+2025-10-24T22:54:57.659-0500 [INFO]  ReferenceTransformer: reference not found: "aws_nat_gateway.nat_gw"
+2025-10-24T22:54:57.659-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.659-0500 [INFO]  ReferenceTransformer: reference not found: "var.azs"
+2025-10-24T22:54:57.659-0500 [INFO]  ReferenceTransformer: reference not found: "aws_nat_gateway.nat_gw"
+2025-10-24T22:54:57.659-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.659-0500 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for module.vpc.aws_vpc_endpoint.ssm, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .security_group_ids: planned value cty.UnknownVal(cty.Set(cty.String)) does not match config value cty.SetVal([]cty.Value{cty.UnknownVal(cty.String)})
+      - .subnet_ids: planned value cty.UnknownVal(cty.Set(cty.String)) does not match config value cty.SetVal([]cty.Value{cty.UnknownVal(cty.String), cty.UnknownVal(cty.String)})
+      - .dns_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .subnet_configuration: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2025-10-24T22:54:57.660-0500 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for module.vpc.aws_route_table.private[1], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .route: planned value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"carrier_gateway_id":cty.StringVal(""), "cidr_block":cty.StringVal("0.0.0.0/0"), "core_network_arn":cty.StringVal(""), "destination_prefix_list_id":cty.StringVal(""), "egress_only_gateway_id":cty.StringVal(""), "gateway_id":cty.StringVal(""), "ipv6_cidr_block":cty.StringVal(""), "local_gateway_id":cty.StringVal(""), "nat_gateway_id":cty.UnknownVal(cty.String), "network_interface_id":cty.StringVal(""), "transit_gateway_id":cty.StringVal(""), "vpc_endpoint_id":cty.StringVal(""), "vpc_peering_connection_id":cty.StringVal("")})}) does not match config value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"carrier_gateway_id":cty.NullVal(cty.String), "cidr_block":cty.StringVal("0.0.0.0/0"), "core_network_arn":cty.NullVal(cty.String), "destination_prefix_list_id":cty.NullVal(cty.String), "egress_only_gateway_id":cty.NullVal(cty.String), "gateway_id":cty.NullVal(cty.String), "ipv6_cidr_block":cty.NullVal(cty.String), "local_gateway_id":cty.NullVal(cty.String), "nat_gateway_id":cty.UnknownVal(cty.String), "network_interface_id":cty.NullVal(cty.String), "transit_gateway_id":cty.NullVal(cty.String), "vpc_endpoint_id":cty.NullVal(cty.String), "vpc_peering_connection_id":cty.NullVal(cty.String)})})
+2025-10-24T22:54:57.660-0500 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for module.vpc.aws_route_table.private[0], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .route: planned value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"carrier_gateway_id":cty.StringVal(""), "cidr_block":cty.StringVal("0.0.0.0/0"), "core_network_arn":cty.StringVal(""), "destination_prefix_list_id":cty.StringVal(""), "egress_only_gateway_id":cty.StringVal(""), "gateway_id":cty.StringVal(""), "ipv6_cidr_block":cty.StringVal(""), "local_gateway_id":cty.StringVal(""), "nat_gateway_id":cty.UnknownVal(cty.String), "network_interface_id":cty.StringVal(""), "transit_gateway_id":cty.StringVal(""), "vpc_endpoint_id":cty.StringVal(""), "vpc_peering_connection_id":cty.StringVal("")})}) does not match config value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"carrier_gateway_id":cty.NullVal(cty.String), "cidr_block":cty.StringVal("0.0.0.0/0"), "core_network_arn":cty.NullVal(cty.String), "destination_prefix_list_id":cty.NullVal(cty.String), "egress_only_gateway_id":cty.NullVal(cty.String), "gateway_id":cty.NullVal(cty.String), "ipv6_cidr_block":cty.NullVal(cty.String), "local_gateway_id":cty.NullVal(cty.String), "nat_gateway_id":cty.UnknownVal(cty.String), "network_interface_id":cty.NullVal(cty.String), "transit_gateway_id":cty.NullVal(cty.String), "vpc_endpoint_id":cty.NullVal(cty.String), "vpc_peering_connection_id":cty.NullVal(cty.String)})})
+2025-10-24T22:54:57.660-0500 [INFO]  ReferenceTransformer: reference not found: "aws_route_table.private"
+2025-10-24T22:54:57.660-0500 [INFO]  ReferenceTransformer: reference not found: "var.region"
+2025-10-24T22:54:57.660-0500 [INFO]  ReferenceTransformer: reference not found: "var.azs"
+2025-10-24T22:54:57.660-0500 [INFO]  ReferenceTransformer: reference not found: "aws_route_table.private"
+2025-10-24T22:54:57.660-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.660-0500 [INFO]  ReferenceTransformer: reference not found: "aws_subnet.private"
+2025-10-24T22:54:57.660-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.660-0500 [INFO]  ReferenceTransformer: reference not found: "var.azs"
+2025-10-24T22:54:57.660-0500 [INFO]  ReferenceTransformer: reference not found: "aws_route_table.private"
+2025-10-24T22:54:57.660-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.660-0500 [INFO]  ReferenceTransformer: reference not found: "aws_subnet.private"
+2025-10-24T22:54:57.660-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.662-0500 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for module.vpc.aws_vpc_endpoint.s3, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .route_table_ids: planned value cty.UnknownVal(cty.Set(cty.String)) does not match config value cty.SetVal([]cty.Value{cty.UnknownVal(cty.String), cty.UnknownVal(cty.String), cty.UnknownVal(cty.String)})
+      - .dns_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .subnet_configuration: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2025-10-24T22:54:57.674-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.674-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.674-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.674-0500 [INFO]  ReferenceTransformer: reference not found: "aws_subnet.public#destroy"
+2025-10-24T22:54:57.674-0500 [INFO]  ReferenceTransformer: reference not found: "aws_route_table.private#destroy"
+2025-10-24T22:54:57.674-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.674-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.674-0500 [INFO]  ReferenceTransformer: reference not found: "aws_internet_gateway.igw#destroy"
+2025-10-24T22:54:57.674-0500 [INFO]  ReferenceTransformer: reference not found: "aws_eip.nat_eip#destroy"
+2025-10-24T22:54:57.674-0500 [INFO]  ReferenceTransformer: reference not found: "aws_subnet.public#destroy"
+2025-10-24T22:54:57.674-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.674-0500 [INFO]  ReferenceTransformer: reference not found: "aws_subnet.public#destroy"
+2025-10-24T22:54:57.674-0500 [INFO]  ReferenceTransformer: reference not found: "aws_subnet.private#destroy"
+2025-10-24T22:54:57.674-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.674-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.674-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.674-0500 [INFO]  ReferenceTransformer: reference not found: "aws_nat_gateway.nat_gw#destroy"
+2025-10-24T22:54:57.674-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.674-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.675-0500 [INFO]  ReferenceTransformer: reference not found: "aws_route_table.private#destroy"
+2025-10-24T22:54:57.675-0500 [INFO]  ReferenceTransformer: reference not found: "aws_subnet.private#destroy"
+2025-10-24T22:54:57.675-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.675-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.675-0500 [INFO]  ReferenceTransformer: reference not found: "aws_route_table.private#destroy"
+2025-10-24T22:54:57.675-0500 [INFO]  ReferenceTransformer: reference not found: "aws_subnet.private#destroy"
+2025-10-24T22:54:57.675-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.675-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.675-0500 [INFO]  ReferenceTransformer: reference not found: "aws_internet_gateway.igw#destroy"
+2025-10-24T22:54:57.675-0500 [INFO]  ReferenceTransformer: reference not found: "aws_eip.nat_eip#destroy"
+2025-10-24T22:54:57.675-0500 [INFO]  ReferenceTransformer: reference not found: "aws_subnet.public#destroy"
+2025-10-24T22:54:57.675-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.675-0500 [INFO]  ReferenceTransformer: reference not found: "aws_nat_gateway.nat_gw#destroy"
+2025-10-24T22:54:57.675-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.675-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.675-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.675-0500 [INFO]  ReferenceTransformer: reference not found: "count.index"
+2025-10-24T22:54:57.677-0500 [INFO]  backend/local: plan operation completed
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  [32m+[0m create[0m
+
+Terraform will perform the following actions:
+
+[1m  # module.vpc.aws_eip.nat_eip[0][0m will be created
+[0m  [32m+[0m[0m resource "aws_eip" "nat_eip" {
+      [32m+[0m[0m allocation_id        = (known after apply)
+      [32m+[0m[0m arn                  = (known after apply)
+      [32m+[0m[0m association_id       = (known after apply)
+      [32m+[0m[0m carrier_ip           = (known after apply)
+      [32m+[0m[0m customer_owned_ip    = (known after apply)
+      [32m+[0m[0m domain               = "vpc"
+      [32m+[0m[0m id                   = (known after apply)
+      [32m+[0m[0m instance             = (known after apply)
+      [32m+[0m[0m ipam_pool_id         = (known after apply)
+      [32m+[0m[0m network_border_group = (known after apply)
+      [32m+[0m[0m network_interface    = (known after apply)
+      [32m+[0m[0m private_dns          = (known after apply)
+      [32m+[0m[0m private_ip           = (known after apply)
+      [32m+[0m[0m ptr_record           = (known after apply)
+      [32m+[0m[0m public_dns           = (known after apply)
+      [32m+[0m[0m public_ip            = (known after apply)
+      [32m+[0m[0m public_ipv4_pool     = (known after apply)
+      [32m+[0m[0m region               = "us-east-1"
+      [32m+[0m[0m tags_all             = {
+          [32m+[0m[0m "Project"   = "vpc-module"
+          [32m+[0m[0m "Terraform" = "true"
+        }
+    }
+
+[1m  # module.vpc.aws_eip.nat_eip[1][0m will be created
+[0m  [32m+[0m[0m resource "aws_eip" "nat_eip" {
+      [32m+[0m[0m allocation_id        = (known after apply)
+      [32m+[0m[0m arn                  = (known after apply)
+      [32m+[0m[0m association_id       = (known after apply)
+      [32m+[0m[0m carrier_ip           = (known after apply)
+      [32m+[0m[0m customer_owned_ip    = (known after apply)
+      [32m+[0m[0m domain               = "vpc"
+      [32m+[0m[0m id                   = (known after apply)
+      [32m+[0m[0m instance             = (known after apply)
+      [32m+[0m[0m ipam_pool_id         = (known after apply)
+      [32m+[0m[0m network_border_group = (known after apply)
+      [32m+[0m[0m network_interface    = (known after apply)
+      [32m+[0m[0m private_dns          = (known after apply)
+      [32m+[0m[0m private_ip           = (known after apply)
+      [32m+[0m[0m ptr_record           = (known after apply)
+      [32m+[0m[0m public_dns           = (known after apply)
+      [32m+[0m[0m public_ip            = (known after apply)
+      [32m+[0m[0m public_ipv4_pool     = (known after apply)
+      [32m+[0m[0m region               = "us-east-1"
+      [32m+[0m[0m tags_all             = {
+          [32m+[0m[0m "Project"   = "vpc-module"
+          [32m+[0m[0m "Terraform" = "true"
+        }
+    }
+
+[1m  # module.vpc.aws_internet_gateway.igw[0m will be created
+[0m  [32m+[0m[0m resource "aws_internet_gateway" "igw" {
+      [32m+[0m[0m arn      = (known after apply)
+      [32m+[0m[0m id       = (known after apply)
+      [32m+[0m[0m owner_id = (known after apply)
+      [32m+[0m[0m region   = "us-east-1"
+      [32m+[0m[0m tags_all = {
+          [32m+[0m[0m "Project"   = "vpc-module"
+          [32m+[0m[0m "Terraform" = "true"
+        }
+      [32m+[0m[0m vpc_id   = (known after apply)
+    }
+
+[1m  # module.vpc.aws_nat_gateway.nat_gw[0][0m will be created
+[0m  [32m+[0m[0m resource "aws_nat_gateway" "nat_gw" {
+      [32m+[0m[0m allocation_id                      = (known after apply)
+      [32m+[0m[0m association_id                     = (known after apply)
+      [32m+[0m[0m connectivity_type                  = "public"
+      [32m+[0m[0m id                                 = (known after apply)
+      [32m+[0m[0m network_interface_id               = (known after apply)
+      [32m+[0m[0m private_ip                         = (known after apply)
+      [32m+[0m[0m public_ip                          = (known after apply)
+      [32m+[0m[0m region                             = "us-east-1"
+      [32m+[0m[0m secondary_allocation_ids           = (known after apply)
+      [32m+[0m[0m secondary_private_ip_address_count = (known after apply)
+      [32m+[0m[0m secondary_private_ip_addresses     = (known after apply)
+      [32m+[0m[0m subnet_id                          = (known after apply)
+      [32m+[0m[0m tags_all                           = {
+          [32m+[0m[0m "Project"   = "vpc-module"
+          [32m+[0m[0m "Terraform" = "true"
+        }
+    }
+
+[1m  # module.vpc.aws_nat_gateway.nat_gw[1][0m will be created
+[0m  [32m+[0m[0m resource "aws_nat_gateway" "nat_gw" {
+      [32m+[0m[0m allocation_id                      = (known after apply)
+      [32m+[0m[0m association_id                     = (known after apply)
+      [32m+[0m[0m connectivity_type                  = "public"
+      [32m+[0m[0m id                                 = (known after apply)
+      [32m+[0m[0m network_interface_id               = (known after apply)
+      [32m+[0m[0m private_ip                         = (known after apply)
+      [32m+[0m[0m public_ip                          = (known after apply)
+      [32m+[0m[0m region                             = "us-east-1"
+      [32m+[0m[0m secondary_allocation_ids           = (known after apply)
+      [32m+[0m[0m secondary_private_ip_address_count = (known after apply)
+      [32m+[0m[0m secondary_private_ip_addresses     = (known after apply)
+      [32m+[0m[0m subnet_id                          = (known after apply)
+      [32m+[0m[0m tags_all                           = {
+          [32m+[0m[0m "Project"   = "vpc-module"
+          [32m+[0m[0m "Terraform" = "true"
+        }
+    }
+
+[1m  # module.vpc.aws_route_table.private[0][0m will be created
+[0m  [32m+[0m[0m resource "aws_route_table" "private" {
+      [32m+[0m[0m arn              = (known after apply)
+      [32m+[0m[0m id               = (known after apply)
+      [32m+[0m[0m owner_id         = (known after apply)
+      [32m+[0m[0m propagating_vgws = (known after apply)
+      [32m+[0m[0m region           = "us-east-1"
+      [32m+[0m[0m route            = [
+          [32m+[0m[0m {
+              [32m+[0m[0m carrier_gateway_id         = ""
+              [32m+[0m[0m cidr_block                 = "0.0.0.0/0"
+              [32m+[0m[0m core_network_arn           = ""
+              [32m+[0m[0m destination_prefix_list_id = ""
+              [32m+[0m[0m egress_only_gateway_id     = ""
+              [32m+[0m[0m gateway_id                 = ""
+              [32m+[0m[0m ipv6_cidr_block            = ""
+              [32m+[0m[0m local_gateway_id           = ""
+              [32m+[0m[0m nat_gateway_id             = (known after apply)
+              [32m+[0m[0m network_interface_id       = ""
+              [32m+[0m[0m transit_gateway_id         = ""
+              [32m+[0m[0m vpc_endpoint_id            = ""
+              [32m+[0m[0m vpc_peering_connection_id  = ""
+            },
+        ]
+      [32m+[0m[0m tags_all         = {
+          [32m+[0m[0m "Project"   = "vpc-module"
+          [32m+[0m[0m "Terraform" = "true"
+        }
+      [32m+[0m[0m vpc_id           = (known after apply)
+    }
+
+[1m  # module.vpc.aws_route_table.private[1][0m will be created
+[0m  [32m+[0m[0m resource "aws_route_table" "private" {
+      [32m+[0m[0m arn              = (known after apply)
+      [32m+[0m[0m id               = (known after apply)
+      [32m+[0m[0m owner_id         = (known after apply)
+      [32m+[0m[0m propagating_vgws = (known after apply)
+      [32m+[0m[0m region           = "us-east-1"
+      [32m+[0m[0m route            = [
+          [32m+[0m[0m {
+              [32m+[0m[0m carrier_gateway_id         = ""
+              [32m+[0m[0m cidr_block                 = "0.0.0.0/0"
+              [32m+[0m[0m core_network_arn           = ""
+              [32m+[0m[0m destination_prefix_list_id = ""
+              [32m+[0m[0m egress_only_gateway_id     = ""
+              [32m+[0m[0m gateway_id                 = ""
+              [32m+[0m[0m ipv6_cidr_block            = ""
+              [32m+[0m[0m local_gateway_id           = ""
+              [32m+[0m[0m nat_gateway_id             = (known after apply)
+              [32m+[0m[0m network_interface_id       = ""
+              [32m+[0m[0m transit_gateway_id         = ""
+              [32m+[0m[0m vpc_endpoint_id            = ""
+              [32m+[0m[0m vpc_peering_connection_id  = ""
+            },
+        ]
+      [32m+[0m[0m tags_all         = {
+          [32m+[0m[0m "Project"   = "vpc-module"
+          [32m+[0m[0m "Terraform" = "true"
+        }
+      [32m+[0m[0m vpc_id           = (known after apply)
+    }
+
+[1m  # module.vpc.aws_route_table.public[0m will be created
+[0m  [32m+[0m[0m resource "aws_route_table" "public" {
+      [32m+[0m[0m arn              = (known after apply)
+      [32m+[0m[0m id               = (known after apply)
+      [32m+[0m[0m owner_id         = (known after apply)
+      [32m+[0m[0m propagating_vgws = (known after apply)
+      [32m+[0m[0m region           = "us-east-1"
+      [32m+[0m[0m route            = [
+          [32m+[0m[0m {
+              [32m+[0m[0m carrier_gateway_id         = ""
+              [32m+[0m[0m cidr_block                 = "0.0.0.0/0"
+              [32m+[0m[0m core_network_arn           = ""
+              [32m+[0m[0m destination_prefix_list_id = ""
+              [32m+[0m[0m egress_only_gateway_id     = ""
+              [32m+[0m[0m gateway_id                 = (known after apply)
+              [32m+[0m[0m ipv6_cidr_block            = ""
+              [32m+[0m[0m local_gateway_id           = ""
+              [32m+[0m[0m nat_gateway_id             = ""
+              [32m+[0m[0m network_interface_id       = ""
+              [32m+[0m[0m transit_gateway_id         = ""
+              [32m+[0m[0m vpc_endpoint_id            = ""
+              [32m+[0m[0m vpc_peering_connection_id  = ""
+            },
+        ]
+      [32m+[0m[0m tags_all         = {
+          [32m+[0m[0m "Project"   = "vpc-module"
+          [32m+[0m[0m "Terraform" = "true"
+        }
+      [32m+[0m[0m vpc_id           = (known after apply)
+    }
+
+[1m  # module.vpc.aws_route_table_association.private[0][0m will be created
+[0m  [32m+[0m[0m resource "aws_route_table_association" "private" {
+      [32m+[0m[0m id             = (known after apply)
+      [32m+[0m[0m region         = "us-east-1"
+      [32m+[0m[0m route_table_id = (known after apply)
+      [32m+[0m[0m subnet_id      = (known after apply)
+    }
+
+[1m  # module.vpc.aws_route_table_association.private[1][0m will be created
+[0m  [32m+[0m[0m resource "aws_route_table_association" "private" {
+      [32m+[0m[0m id             = (known after apply)
+      [32m+[0m[0m region         = "us-east-1"
+      [32m+[0m[0m route_table_id = (known after apply)
+      [32m+[0m[0m subnet_id      = (known after apply)
+    }
+
+[1m  # module.vpc.aws_route_table_association.public[0][0m will be created
+[0m  [32m+[0m[0m resource "aws_route_table_association" "public" {
+      [32m+[0m[0m id             = (known after apply)
+      [32m+[0m[0m region         = "us-east-1"
+      [32m+[0m[0m route_table_id = (known after apply)
+      [32m+[0m[0m subnet_id      = (known after apply)
+    }
+
+[1m  # module.vpc.aws_route_table_association.public[1][0m will be created
+[0m  [32m+[0m[0m resource "aws_route_table_association" "public" {
+      [32m+[0m[0m id             = (known after apply)
+      [32m+[0m[0m region         = "us-east-1"
+      [32m+[0m[0m route_table_id = (known after apply)
+      [32m+[0m[0m subnet_id      = (known after apply)
+    }
+
+[1m  # module.vpc.aws_security_group.vpc_endpoints[0m will be created
+[0m  [32m+[0m[0m resource "aws_security_group" "vpc_endpoints" {
+      [32m+[0m[0m arn                    = (known after apply)
+      [32m+[0m[0m description            = "Managed by Terraform"
+      [32m+[0m[0m egress                 = [
+          [32m+[0m[0m {
+              [32m+[0m[0m cidr_blocks      = [
+                  [32m+[0m[0m "0.0.0.0/0",
+                ]
+              [32m+[0m[0m description      = ""
+              [32m+[0m[0m from_port        = 0
+              [32m+[0m[0m ipv6_cidr_blocks = []
+              [32m+[0m[0m prefix_list_ids  = []
+              [32m+[0m[0m protocol         = "-1"
+              [32m+[0m[0m security_groups  = []
+              [32m+[0m[0m self             = false
+              [32m+[0m[0m to_port          = 0
+            },
+        ]
+      [32m+[0m[0m id                     = (known after apply)
+      [32m+[0m[0m ingress                = [
+          [32m+[0m[0m {
+              [32m+[0m[0m cidr_blocks      = [
+                  [32m+[0m[0m "172.16.0.0/16",
+                ]
+              [32m+[0m[0m description      = ""
+              [32m+[0m[0m from_port        = 443
+              [32m+[0m[0m ipv6_cidr_blocks = []
+              [32m+[0m[0m prefix_list_ids  = []
+              [32m+[0m[0m protocol         = "tcp"
+              [32m+[0m[0m security_groups  = []
+              [32m+[0m[0m self             = false
+              [32m+[0m[0m to_port          = 443
+            },
+        ]
+      [32m+[0m[0m name                   = (known after apply)
+      [32m+[0m[0m name_prefix            = "dev-vpc-endpoints-sg"
+      [32m+[0m[0m owner_id               = (known after apply)
+      [32m+[0m[0m region                 = "us-east-1"
+      [32m+[0m[0m revoke_rules_on_delete = false
+      [32m+[0m[0m tags_all               = {
+          [32m+[0m[0m "Project"   = "vpc-module"
+          [32m+[0m[0m "Terraform" = "true"
+        }
+      [32m+[0m[0m vpc_id                 = (known after apply)
+    }
+
+[1m  # module.vpc.aws_subnet.private[0][0m will be created
+[0m  [32m+[0m[0m resource "aws_subnet" "private" {
+      [32m+[0m[0m arn                                            = (known after apply)
+      [32m+[0m[0m assign_ipv6_address_on_creation                = false
+      [32m+[0m[0m availability_zone                              = "us-east-1a"
+      [32m+[0m[0m availability_zone_id                           = (known after apply)
+      [32m+[0m[0m cidr_block                                     = "172.16.10.0/24"
+      [32m+[0m[0m enable_dns64                                   = false
+      [32m+[0m[0m enable_resource_name_dns_a_record_on_launch    = false
+      [32m+[0m[0m enable_resource_name_dns_aaaa_record_on_launch = false
+      [32m+[0m[0m id                                             = (known after apply)
+      [32m+[0m[0m ipv6_cidr_block_association_id                 = (known after apply)
+      [32m+[0m[0m ipv6_native                                    = false
+      [32m+[0m[0m map_public_ip_on_launch                        = false
+      [32m+[0m[0m owner_id                                       = (known after apply)
+      [32m+[0m[0m private_dns_hostname_type_on_launch            = (known after apply)
+      [32m+[0m[0m region                                         = "us-east-1"
+      [32m+[0m[0m tags_all                                       = {
+          [32m+[0m[0m "Project"   = "vpc-module"
+          [32m+[0m[0m "Terraform" = "true"
+        }
+      [32m+[0m[0m vpc_id                                         = (known after apply)
+    }
+
+[1m  # module.vpc.aws_subnet.private[1][0m will be created
+[0m  [32m+[0m[0m resource "aws_subnet" "private" {
+      [32m+[0m[0m arn                                            = (known after apply)
+      [32m+[0m[0m assign_ipv6_address_on_creation                = false
+      [32m+[0m[0m availability_zone                              = "us-east-2b"
+      [32m+[0m[0m availability_zone_id                           = (known after apply)
+      [32m+[0m[0m cidr_block                                     = "172.16.11.0/24"
+      [32m+[0m[0m enable_dns64                                   = false
+      [32m+[0m[0m enable_resource_name_dns_a_record_on_launch    = false
+      [32m+[0m[0m enable_resource_name_dns_aaaa_record_on_launch = false
+      [32m+[0m[0m id                                             = (known after apply)
+      [32m+[0m[0m ipv6_cidr_block_association_id                 = (known after apply)
+      [32m+[0m[0m ipv6_native                                    = false
+      [32m+[0m[0m map_public_ip_on_launch                        = false
+      [32m+[0m[0m owner_id                                       = (known after apply)
+      [32m+[0m[0m private_dns_hostname_type_on_launch            = (known after apply)
+      [32m+[0m[0m region                                         = "us-east-1"
+      [32m+[0m[0m tags_all                                       = {
+          [32m+[0m[0m "Project"   = "vpc-module"
+          [32m+[0m[0m "Terraform" = "true"
+        }
+      [32m+[0m[0m vpc_id                                         = (known after apply)
+    }
+
+[1m  # module.vpc.aws_subnet.public[0][0m will be created
+[0m  [32m+[0m[0m resource "aws_subnet" "public" {
+      [32m+[0m[0m arn                                            = (known after apply)
+      [32m+[0m[0m assign_ipv6_address_on_creation                = false
+      [32m+[0m[0m availability_zone                              = "us-east-1a"
+      [32m+[0m[0m availability_zone_id                           = (known after apply)
+      [32m+[0m[0m cidr_block                                     = "172.16.0.0/24"
+      [32m+[0m[0m enable_dns64                                   = false
+      [32m+[0m[0m enable_resource_name_dns_a_record_on_launch    = false
+      [32m+[0m[0m enable_resource_name_dns_aaaa_record_on_launch = false
+      [32m+[0m[0m id                                             = (known after apply)
+      [32m+[0m[0m ipv6_cidr_block_association_id                 = (known after apply)
+      [32m+[0m[0m ipv6_native                                    = false
+      [32m+[0m[0m map_public_ip_on_launch                        = true
+      [32m+[0m[0m owner_id                                       = (known after apply)
+      [32m+[0m[0m private_dns_hostname_type_on_launch            = (known after apply)
+      [32m+[0m[0m region                                         = "us-east-1"
+      [32m+[0m[0m tags_all                                       = {
+          [32m+[0m[0m "Project"   = "vpc-module"
+          [32m+[0m[0m "Terraform" = "true"
+        }
+      [32m+[0m[0m vpc_id                                         = (known after apply)
+    }
+
+[1m  # module.vpc.aws_subnet.public[1][0m will be created
+[0m  [32m+[0m[0m resource "aws_subnet" "public" {
+      [32m+[0m[0m arn                                            = (known after apply)
+      [32m+[0m[0m assign_ipv6_address_on_creation                = false
+      [32m+[0m[0m availability_zone                              = "us-east-2b"
+      [32m+[0m[0m availability_zone_id                           = (known after apply)
+      [32m+[0m[0m cidr_block                                     = "172.16.1.0/24"
+      [32m+[0m[0m enable_dns64                                   = false
+      [32m+[0m[0m enable_resource_name_dns_a_record_on_launch    = false
+      [32m+[0m[0m enable_resource_name_dns_aaaa_record_on_launch = false
+      [32m+[0m[0m id                                             = (known after apply)
+      [32m+[0m[0m ipv6_cidr_block_association_id                 = (known after apply)
+      [32m+[0m[0m ipv6_native                                    = false
+      [32m+[0m[0m map_public_ip_on_launch                        = true
+      [32m+[0m[0m owner_id                                       = (known after apply)
+      [32m+[0m[0m private_dns_hostname_type_on_launch            = (known after apply)
+      [32m+[0m[0m region                                         = "us-east-1"
+      [32m+[0m[0m tags_all                                       = {
+          [32m+[0m[0m "Project"   = "vpc-module"
+          [32m+[0m[0m "Terraform" = "true"
+        }
+      [32m+[0m[0m vpc_id                                         = (known after apply)
+    }
+
+[1m  # module.vpc.aws_vpc.staging_vpc[0m will be created
+[0m  [32m+[0m[0m resource "aws_vpc" "staging_vpc" {
+      [32m+[0m[0m arn                                  = (known after apply)
+      [32m+[0m[0m cidr_block                           = "172.16.0.0/16"
+      [32m+[0m[0m default_network_acl_id               = (known after apply)
+      [32m+[0m[0m default_route_table_id               = (known after apply)
+      [32m+[0m[0m default_security_group_id            = (known after apply)
+      [32m+[0m[0m dhcp_options_id                      = (known after apply)
+      [32m+[0m[0m enable_dns_hostnames                 = (known after apply)
+      [32m+[0m[0m enable_dns_support                   = true
+      [32m+[0m[0m enable_network_address_usage_metrics = (known after apply)
+      [32m+[0m[0m id                                   = (known after apply)
+      [32m+[0m[0m instance_tenancy                     = "default"
+      [32m+[0m[0m ipv6_association_id                  = (known after apply)
+      [32m+[0m[0m ipv6_cidr_block                      = (known after apply)
+      [32m+[0m[0m ipv6_cidr_block_network_border_group = (known after apply)
+      [32m+[0m[0m main_route_table_id                  = (known after apply)
+      [32m+[0m[0m owner_id                             = (known after apply)
+      [32m+[0m[0m region                               = "us-east-1"
+      [32m+[0m[0m tags_all                             = {
+          [32m+[0m[0m "Project"   = "vpc-module"
+          [32m+[0m[0m "Terraform" = "true"
+        }
+    }
+
+[1m  # module.vpc.aws_vpc_endpoint.s3[0m will be created
+[0m  [32m+[0m[0m resource "aws_vpc_endpoint" "s3" {
+      [32m+[0m[0m arn                   = (known after apply)
+      [32m+[0m[0m cidr_blocks           = (known after apply)
+      [32m+[0m[0m dns_entry             = (known after apply)
+      [32m+[0m[0m id                    = (known after apply)
+      [32m+[0m[0m ip_address_type       = (known after apply)
+      [32m+[0m[0m network_interface_ids = (known after apply)
+      [32m+[0m[0m owner_id              = (known after apply)
+      [32m+[0m[0m policy                = (known after apply)
+      [32m+[0m[0m prefix_list_id        = (known after apply)
+      [32m+[0m[0m private_dns_enabled   = (known after apply)
+      [32m+[0m[0m region                = "us-east-1"
+      [32m+[0m[0m requester_managed     = (known after apply)
+      [32m+[0m[0m route_table_ids       = (known after apply)
+      [32m+[0m[0m security_group_ids    = (known after apply)
+      [32m+[0m[0m service_name          = "com.amazonaws.us-east-1.s3"
+      [32m+[0m[0m service_region        = (known after apply)
+      [32m+[0m[0m state                 = (known after apply)
+      [32m+[0m[0m subnet_ids            = (known after apply)
+      [32m+[0m[0m tags_all              = {
+          [32m+[0m[0m "Project"   = "vpc-module"
+          [32m+[0m[0m "Terraform" = "true"
+        }
+      [32m+[0m[0m vpc_endpoint_type     = "Gateway"
+      [32m+[0m[0m vpc_id                = (known after apply)
+    }
+
+[1m  # module.vpc.aws_vpc_endpoint.ssm[0m will be created
+[0m  [32m+[0m[0m resource "aws_vpc_endpoint" "ssm" {
+      [32m+[0m[0m arn                   = (known after apply)
+      [32m+[0m[0m cidr_blocks           = (known after apply)
+      [32m+[0m[0m dns_entry             = (known after apply)
+      [32m+[0m[0m id                    = (known after apply)
+      [32m+[0m[0m ip_address_type       = (known after apply)
+      [32m+[0m[0m network_interface_ids = (known after apply)
+      [32m+[0m[0m owner_id              = (known after apply)
+      [32m+[0m[0m policy                = (known after apply)
+      [32m+[0m[0m prefix_list_id        = (known after apply)
+      [32m+[0m[0m private_dns_enabled   = true
+      [32m+[0m[0m region                = "us-east-1"
+      [32m+[0m[0m requester_managed     = (known after apply)
+      [32m+[0m[0m route_table_ids       = (known after apply)
+      [32m+[0m[0m security_group_ids    = (known after apply)
+      [32m+[0m[0m service_name          = "com.amazonaws.us-east-1.ssm"
+      [32m+[0m[0m service_region        = (known after apply)
+      [32m+[0m[0m state                 = (known after apply)
+      [32m+[0m[0m subnet_ids            = (known after apply)
+      [32m+[0m[0m tags_all              = {
+          [32m+[0m[0m "Project"   = "vpc-module"
+          [32m+[0m[0m "Terraform" = "true"
+        }
+      [32m+[0m[0m vpc_endpoint_type     = "Interface"
+      [32m+[0m[0m vpc_id                = (known after apply)
+    }
+
+[1mPlan:[0m 20 to add, 0 to change, 0 to destroy.
+[0m
+Changes to Outputs:
+  [32m+[0m[0m vpc_id = (known after apply)
+[90m
+─────────────────────────────────────────────────────────────────────────────[0m
+
+Note: You didn't use the -out option to save this plan, so Terraform can't
+guarantee to take exactly these actions if you run "terraform apply" now.
